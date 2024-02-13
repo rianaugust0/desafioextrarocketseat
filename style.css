@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+#container {
+    width: 626px;
+    height: 586px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 90px;
+}
+
+#container h1 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 30px;
+    font-weight: 400;
+    
+}
+
+#container span { 
+    color: #EE24FF;
+    font-weight: bold;
+    
+}
+
+#container strong {
+    color: #3F3D56;
+    
+}
+
+#container p {
+    color: #828282;
+    text-align: center;
+   
+   
+    
+    display: inline;
+    
+}
+
+
+footer img {
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    height: 30vh;
+    
+}
+
+footer  {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
